@@ -1,0 +1,15 @@
+artifacts_root: artifacts # create root folder artifacts to store the pipelines for data ingestion, validation, etc.
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/miguelhermar/dummy-repo/raw/main/winequality-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+
+
+
+
+
+
