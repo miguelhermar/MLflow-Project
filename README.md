@@ -6,10 +6,12 @@
 1. Update config.yaml
 2. Update schema.yaml (file where all the columns of the data are mentioned, including their data types: for data validation)
 3. Update params.yaml (paramaters used throughout the project: for model training)
+
 ---- THESE STEPS WILL BE DIFFERENT IN EACH STAGE OF THE PIPELINE ----
 4. Update the entity folder
 5. Update the configuration manager in src config folder
 6. Update the components (data ingestion, validation, transformation, etc.)
+
 ---- THESE STEPS WILL BE DIFFERENT IN EACH STAGE OF THE PIPELINE ----
 7. Update the pipeline folder (two separate pipelines for training and prediction)
 8. Update the main.py
