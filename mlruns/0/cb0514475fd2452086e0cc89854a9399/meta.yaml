@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/miguelhermar/Desktop/Projects/MLflow-Project/mlruns/0/cb0514475fd2452086e0cc89854a9399/artifacts
+end_time: 1696044344372
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb0514475fd2452086e0cc89854a9399
+run_name: illustrious-lark-45
+run_uuid: cb0514475fd2452086e0cc89854a9399
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696044343233
+status: 3
+tags: []
+user_id: miguelhermar

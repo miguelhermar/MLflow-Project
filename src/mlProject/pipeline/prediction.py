@@ -1,0 +1,16 @@
+# Simply make the prediction and return it to the user
+
+import joblib 
+import numpy as np
+import pandas as pd
+from pathlib import Path
+
+class PredictionPipeline: #load model inside this class
+    def __init__(self):
+        self.model = joblib.load(Path('artifacts/model_trainer/model.joblib'))
+
+    
+    def predict(self, data):
+        prediction = self.model.predict(data) #take data from the user
+
+        return prediction
