@@ -121,7 +121,7 @@ export MLFLOW_TRACKING_PASSWORD=838058e049ff14335ccc9b935c026e41b1001293
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 714501908979.dkr.ecr.us-east-2.amazonaws.com/mlflow_proj
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -129,15 +129,15 @@ export MLFLOW_TRACKING_PASSWORD=838058e049ff14335ccc9b935c026e41b1001293
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	#optimal
 
-	sudo apt-get update -y
+	sudo apt-get update -y # apt-get is a utility for installing, updating, and removing packages on Debian-based Linux systems. It's a command-line tool that interacts with the Advanced Package Tool (APT) system to manage software on the system.
 
-	sudo apt-get upgrade
+	sudo apt-get upgrade # upgrade all installed packages to their latest versions.
 	
 	#required
 
-	curl -fsSL https://get.docker.com -o get-docker.sh
+	curl -fsSL https://get.docker.com -o get-docker.sh # install docker on VM
 
 	sudo sh get-docker.sh
 
@@ -148,18 +148,22 @@ export MLFLOW_TRACKING_PASSWORD=838058e049ff14335ccc9b935c026e41b1001293
 # 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
 
+	A self-hosted runner is a server that hosts the runner application which listens for available jobs in GitHub Actions or other CI/CD (Continuous Integration/Continuous Deployment) systems. When a job becomes available, the runner application on the server picks it up and runs the job on that serve
+
 
 # 7. Setup github secrets:
 
-    AWS_ACCESS_KEY_ID=
+	secrets and variables>actions>new repository secret
+
+    AWS_ACCESS_KEY_ID=<from AWS account (csv file)>
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = us-east-2b
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  714501908979.dkr.ecr.us-east-2.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = mlflow_proj
 
 
 
