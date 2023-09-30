@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/miguelhermar/Desktop/Projects/MLflow-Project/mlruns/0/aed062327c364424af0ab865b14d8ebe/artifacts
+end_time: 1696042303849
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aed062327c364424af0ab865b14d8ebe
+run_name: unleashed-ray-658
+run_uuid: aed062327c364424af0ab865b14d8ebe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696042302786
+status: 3
+tags: []
+user_id: miguelhermar

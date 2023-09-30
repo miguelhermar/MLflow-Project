@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/miguelhermar/Desktop/Projects/MLflow-Project/mlruns/0/34ff6578fd9f4bc89b30f1e1cba416d5/artifacts
+end_time: 1696042245904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34ff6578fd9f4bc89b30f1e1cba416d5
+run_name: whimsical-shrew-417
+run_uuid: 34ff6578fd9f4bc89b30f1e1cba416d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696042244735
+status: 3
+tags: []
+user_id: miguelhermar
